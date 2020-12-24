@@ -1,0 +1,27 @@
+##ODEV 1: while dongusu
+Bu programlamada kullanici ve parola girmeyi kodlayacagim.
+Kullanici adini veya parola yanlis girildiginde neler yapilacagini gosterecegim.
+Burada while True if elif else print break input komutlarni kullanacagim
+
+defkullanici="hakki dayi"
+defparola="4048"
+
+While True:
+   kullanici=input("Kullanici Adi:")
+   parola=input("parola:")
+   if((defkullanici==Kullanici Adi)and(defparola==parola)):
+     print("Hosgeldiniz",kullanici)
+   break
+   elif((defkullanici!=Kullanici Adi)and(defparola==parola)):
+     print("kullanici adini yanlis girdiniz")
+   elif((defkullanici==Kullanici Adi)and(defparola!=parola)):  
+     print("parolayi yanlis girdiniz")
+     print("sifreyi degistirmek istermisiniz?(E/H)")
+    Cevap:input()
+    if (cevap =="E"):
+    yeniparola=input("yeniparola:")
+     print("lutfen Bekleyin")
+    defparola=yeniparola
+     print("Sifre basariyla degistirildi..")
+   else:
+    print("tekrar deneyin")
